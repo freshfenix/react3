@@ -1,0 +1,25 @@
+:root {
+  font-family: Inter, "Avenir Next", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  color: #17201f;
+  background: #f0eee8;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 400;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+  background: #f0eee8;
+}
+
+button, input, select { font-family: inherit; }
+button, input, select { -webkit-tap-highlight-color: transparent; }
+::selection { background: #d4fa75; color: #17201f; }
+
+#root { min-height: 100vh; }
